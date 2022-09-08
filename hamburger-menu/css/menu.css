@@ -88,15 +88,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200vw;
-    height: 200vw;
+    width: 100vw;
+    height: 100vh;
 }
 
 .menu-wrap .menu > div > div{
     text-align: center;
-    max-width: 90vw;
-    max-height: 100vh;
-    opacity: 0;
+    opacity: 0; 
     transition: all 0.4s ease;
 }
 
@@ -118,9 +116,4 @@ a{
 
 .menu-wrap .toggler:checked ~ .menu{
     visibility: visible;
-}
-
-.menu-wrap .toggler:checked ~ .menu > div{
-    transform: scale(1);
-    transition-duration: var(--menu-speed);
 }
