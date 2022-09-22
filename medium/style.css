@@ -158,3 +158,54 @@ section{
 .filter li{
     padding-right: 1.7rem;
 }
+
+.rightbar{
+    max-width: 20.5rem;
+    margin: 2.5rem auto 0 auto;
+}
+
+.rightbar input{
+    font-weight: 500;
+    padding: 0.5rem 1rem 0.5rem 0;
+    border: none;
+}
+
+input[type=text]:focus {
+    border: none;
+    outline: none;
+}
+
+.textbox{
+    display: flex;
+    align-items: center;
+    border: #E1E1E1 solid 1px;
+    border-radius: 2rem;
+    padding: 0 0.5rem;
+}
+
+#searchicon{
+    margin-right: 0.5rem;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    margin-bottom: 2rem;
+    display: block;
+    text-align: center;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1150px) {
+   .rightbar{
+    visibility: hidden;
+   }
+
+   .major-y{
+    width: 100%;
+   }
+}
