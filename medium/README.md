@@ -1,1 +1,1 @@
-<img src="medium.jpg">
+<img src="mediumss.jpg">
